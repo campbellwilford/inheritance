@@ -23,6 +23,13 @@ class Person:
         print()
 
 
-#method 2
+        print('METHOD 2')
+        Person.print_person(self)
+
+        print('Customer Number:',self.__cust_number)
+        if self.__on_list:
+            print('On Mailing List: Yes')
+        else:
+            print('On Mailing List: No')
 
 
